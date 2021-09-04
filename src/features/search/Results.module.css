@@ -1,0 +1,36 @@
+.results {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.item img {
+    margin-right: 5px;
+}
+
+.item .description {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.item .title {
+    font-weight: bold;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
