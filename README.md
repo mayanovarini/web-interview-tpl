@@ -1,8 +1,7 @@
-# Welcome to Gametime!
+# Welcome to Maya's Submission for GameTime take home test!
 
-What you are looking at is the exact output of `npx create-react-app web-interview-tpl --template redux` (including all the comments)
-
-This repo is here to help candidates jump right into the coding challenge without having to worry about setting up environment.
+This project demonstrates an entity searching functionality (Search component). 
+Search component renders an unordered list component called Results and each entity is represented/rendered by Item component.
 
 **Feel free to use your own setup or modify this base app any way you want**
 
